@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Heebo:wght@100..900&display=swap');
+
+
+@font-face:{
+	font-family:"Catamara";
+	src:url("../../ejercicioExtra/Catamaran-VariableFont_wght.ttf") format("truetype");
+}
+
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero{
+	background-color:var(--color-negro);
+	padding: 30px;
+}
+
+#hero h1{
+	font-size: 70px;
+	font-weight: 700;
+	color:#fff;
+	font-size: 40;
+}
+
+#hero h2{
+	font
